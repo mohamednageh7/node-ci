@@ -39,4 +39,4 @@ nohup (no hung up) => if the shell is closed don't kill anything this command cr
 k- define the port your project will run on => PORT=3000
 
 // git tibs
-- git remote remove origin 
+- git remote remove origin    
