@@ -1,0 +1,13 @@
+// unit testing 
+- testing a single function or route in you code and make sure it working
+
+
+// integration testing
+- testing my all routes and function as a hole systemt 
+
+// Using jest for test
+// Using puppeteer to launch a chrominun version and interact with it using JS code
+
+// working with Proxy()
+- it is a new feature in ES15
+- It used to combined two classes without missing with the original classes

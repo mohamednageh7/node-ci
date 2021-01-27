@@ -1,0 +1,42 @@
+// CI Providers
+
+1- Travis CI
+2- Circle CI
+3- Codeship 
+4- AWS Codebuild
+
+// We work with Travis CI
+1- .yml filw will be used to direct Travis to start run our testing and check
+if every thing is ok and send us an email tell us that
+
+2- Yam is like JSON but without the form of writting
+
+color:'red'
+nestedObject:
+ english:'very well'
+array:
+ - 'one'
+ - 'two'
+
+3- website => docs.travis-ci.com
+
+4- yml config
+a- tell travis what language we work with => language: node_js
+b- what vesion of node we want to use => node_js:
+         - "8
+c- define the operating systemt (dist) => dist: trusty
+trusty is a very specific version of linux 
+d- service we want to create for our project => copy of mongodb & redis
+
+// Setup related to our project
+e- env => array of enviroment variable 
+f- cache => when it cache node_module folder this will speed our build 
+g- install => this will hold some of the commands we want to excute on the command line 
+s- script => 
+nohup (no hung up) => if the shell is closed don't kill anything this command creates
+& => run in background mode
+-- sleep 3 => wait 3 second and then launch
+k- define the port your project will run on => PORT=3000
+
+// git tibs
+- git remote remove origin 

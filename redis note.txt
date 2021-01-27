@@ -1,0 +1,18 @@
+// Caching server 
+** Redis **
+- Redis is in memory data store
+- store data in short memory of my pc and when my server restart or power off the data deleted 
+- Redis is simillar to object it store key and value 
+- I use set() to store data on it 
+- I use get(key,cb()) to get the data from it
+
+// clear Redis
+- client.flushall()
+// set timeout for data in Redis
+- client.set('color','red','EX',5)
+- client.hset(master key,child key,value of that key,'EX' expiration time, 10 => 10 seconds)
+
+- client.get(key)
+- client.hget(master key,child key)
+
+
